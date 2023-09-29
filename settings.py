@@ -1,2 +1,6 @@
-DA_TOKEN = "C4jJ4d0XcsdrT0rrfmKfSVCOESdfLFTrUc4MwRzncrx71rl2PeOTdDlx9C8O"
-HISTORY_FILE = "donation_history.txt"
+#Donation Alerts Api key
+DA_TOKEN = "your API key"
+#YouTube API key
+YT_TOKEN = "your API key"
+#History file
+HISTORY_FILE = "theme_history.txt"
