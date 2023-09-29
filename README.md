@@ -3,7 +3,8 @@ AiMediaTech Unity Resourse Provider<br>
 Ui for Unity resources provider<br>
 # Install
 <code>
-git clone https://github.com/Merzoit/amt-urp.git\n
-
+#Copy files on your PC
+git clone https://github.com/Merzoit/amt-urp.git
+#Go to actual folder
 cd amt-urp-ui
 </code>
