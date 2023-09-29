@@ -82,3 +82,5 @@ venv\Scripts\activate
 python main.py
 ```
 After launching the application it will open UI.
+
+<img src="assets/screen.png">
