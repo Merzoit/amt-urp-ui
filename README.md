@@ -5,12 +5,12 @@ Ui for Unity resources provider<br>
 ```
 # Copy files on your PC
 git clone https://github.com/Merzoit/amt-urp.git
-#Go to actual folder
+# Go to actual folder
 cd amt-urp-ui
 
 # Create virtual environment
 python -m venv venv
-#Activate environment
+# Activate environment
 venv\Scripts\activate
 
 # Install requirements
