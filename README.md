@@ -1,7 +1,7 @@
 # amt-urp-ui
 AiMediaTech Unity Resourse Provider<br>
 Ui for Unity resources provider<br>
-<b><Start-><a href="https://github.com/xtekky/gpt4free">g4f</a>-><a href="https://github.com/litagin02/rvc-tts-webui">rvc-tts-webui</a>->Output</b><br><br>
+<b>Start-><a href="https://github.com/xtekky/gpt4free">g4f</a>-><a href="https://github.com/litagin02/rvc-tts-webui">rvc-tts-webui</a>->Output</b><br><br>
 A program for generating resources for the Unity project. Soft uses several neural networks.<br> 
 The gpt-3.5-turbo/gpt-4 models are used to generate the script. A complete list of available models and providers:<br><br>
 <b>
@@ -32,8 +32,8 @@ The gpt-3.5-turbo/gpt-4 models are used to generate the script. A complete list 
     Yqcloud.
 </b>
 <br><br>
-After preparing the script, the RVC-TTS-WEBUI API is used to voice the characters' lines and saves the files to the specified folder.
-
+After preparing the script, the RVC-TTS-WEBUI API is used to voice the characters' lines and saves the files to the specified folder.<br>
+You need to have the RVC-TTS-WEBUI server running for the application to work correctly. Instructions for installing and starting the server can be found at the <a href="https://github.com/litagin02/rvc-tts-webui">link</a>.<br>
 # Install
 ```
 # Copy files on your PC
