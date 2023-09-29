@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ```
 # Settings
 After installing the application and its dependencies, set the necessary settings.<br><br>
-amt-urp/settings.py
+<b>amt-urp/settings.py</b>
 ```
 # Indicate your Donation Alerts Api key
 DA_TOKEN = "your API key" 
@@ -61,7 +61,7 @@ DA_TOKEN = "your API key"
 YT_TOKEN = "your API key"
 ```
 You can change provider<br>
-amt-urp/core.py
+<b>amt-urp/core.py</b>
 ```
 def request_for_gpt(self, promt):
     """
