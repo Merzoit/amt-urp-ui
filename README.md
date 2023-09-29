@@ -55,8 +55,24 @@ pip install -r requirements.txt
 After installing the application and its dependencies, set the necessary settings.<br><br>
 amt-urp/settings.py
 ```
-# Donation Alerts Api key
+# Indicate your Donation Alerts Api key
 DA_TOKEN = "your API key" 
-# YouTube API key
+# Indicate your YouTube API key
 YT_TOKEN = "your API key"
+```
+You can change provider<br>
+amt-urp/core.py
+```
+def request_for_gpt(self, promt):
+    """
+    Метод отправки запроса к gpt.
+    Возвращает строку сценария.
+    """
+    response = g4f.ChatCompletion.create(
+        model = "gpt-3.5-turbo", # Indicate GPT model
+        provider = g4f.Provider.Aichat, # Indicate GPT Provider
+        messages = [{"role": "user", "content": promt}],
+        auth = True,
+        #stream = True,
+    )
 ```
