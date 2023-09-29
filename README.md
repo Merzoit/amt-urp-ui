@@ -52,4 +52,11 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 # Settings
-After installing the application and its dependencies, set the necessary settings.
+After installing the application and its dependencies, set the necessary settings.<br><br>
+amt-urp/settings.py
+```
+# Donation Alerts Api key
+DA_TOKEN = "your API key" 
+# YouTube API key
+YT_TOKEN = "your API key"
+```
