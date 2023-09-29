@@ -33,7 +33,8 @@ The <b>gpt-3.5-turbo/gpt-4</b> models are used to generate the script. A complet
 </b>
 <br><br>
 After preparing the script, the <b>RVC-TTS-WEBUI</b> API is used to voice the characters' lines and saves the files to the specified folder.<br>
-<b style="color: red;">You need to have the RVC-TTS-WEBUI server running for the application to work correctly.</b> Instructions for installing and starting the server can be found at the <a href="https://github.com/litagin02/rvc-tts-webui">link</a>.<br>
+<b>You need to have the RVC-TTS-WEBUI server running for the application to work correctly.</b> Instructions for installing and starting the server can be found at the <a href="https://github.com/litagin02/rvc-tts-webui">link</a>.<br>
+
 # Install
 ```
 # Copy files on your PC
