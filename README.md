@@ -34,6 +34,7 @@ The <b>gpt-3.5-turbo/gpt-4</b> models are used to generate the script. A complet
 <br><br>
 After preparing the script, the <b>RVC-TTS-WEBUI</b> API is used to voice the characters' lines and saves the files to the specified folder.<br>
 <b>You need to have the RVC-TTS-WEBUI server running for the application to work correctly.</b> Instructions for installing and starting the server can be found at the <a href="https://github.com/litagin02/rvc-tts-webui">link</a>.<br>
+For optimal generation speed, you need a GTX1660 SUPER or better video card.
 
 # Install
 ```
@@ -51,4 +52,4 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 # Settings
-
+After installing the application and its dependencies, set the necessary settings.
