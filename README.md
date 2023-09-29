@@ -84,3 +84,10 @@ python main.py
 After launching the application it will open UI.
 
 <img src="assets/screen.png">
+
+
+Specify the path to the folders where the audio and text script will be stored. You must have 2 folders for queue flow.<br>
+In the ID stream field, enter the current ID of your stream on YouTube.<br>
+Also set the search interval for requested topics from YouTube.<br><br>
+After successful generation, the value of the ready variable for the folder will be changed to False and will be inactive until the value becomes True. You need to programmatically or manually change the folder's readiness status.
+
