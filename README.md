@@ -52,7 +52,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 # Settings
-After installing the application and its dependencies, set the necessary settings.<br><br>
+After installing the application and its dependencies, set the necessary settings.<br>
 <b>amt-urp/settings.py</b>
 ```
 # Indicate your Donation Alerts Api key
