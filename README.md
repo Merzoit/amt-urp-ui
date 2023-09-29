@@ -76,3 +76,9 @@ def request_for_gpt(self, promt):
         #stream = True,
     )
 ```
+# Start app
+```
+venv\Scripts\activate
+python main.py
+```
+After launching the application it will open UI.
